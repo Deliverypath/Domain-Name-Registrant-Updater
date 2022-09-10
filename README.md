@@ -1,3 +1,8 @@
+
+![Deliverypath logo](https://get.clevver.org/0d4f809eaebe476d4c17c04ee293cffb8a1467c0a6dc87a89e29a9f26618a12f.png)
+
+This shell script is courtesy of [Deliverypath](https://deliverypath.com/). Deliverypath provides comprehensive and affordable WordPress hosting services for creative marketing and branding agencies, development, and design shops. We are your single point of contact when you want to outsource the time-intensive process of securing and maintaining your client websites.
+
 # Domain Name Registrant Bulk Updater for the Cloudflare API
 
 The shell script can be called remotely via CLI with the following syntax. Just fill in the required fields. A Cloudflare account that contains domain names is required for this script to work.
