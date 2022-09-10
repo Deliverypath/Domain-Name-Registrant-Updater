@@ -4,7 +4,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 # Update the registrant information for domain names in bulk. Cloudflare only.
 # https://api.cloudflare.com/#registrar-domains-update-domain
 #
-# wget -O - registrant.sh | bash -s "first_name" "last_name" "organization" "address" "address2" "city" "state" "zip" "country" "X-Auth-Key" "X-Auth-Email" "Cloudflare Id" "domain name csv list"
+# wget -O - https://raw.githubusercontent.com/getlynx/DomainNameRegistrant-BulkUpdater/main/registrant.sh | bash -s "first_name" "last_name" "organization" "address" "address2" "city" "state" "zip" "country" "X-Auth-Key" "X-Auth-Email" "Cloudflare Id" "domain name csv list"
 # ./registrant.sh "first_name" "last_name" "organization" "address" "address2" "city" "state" "zip" "country" "X-Auth-Key" "X-Auth-Email" "Cloudflare Id" "domain name csv list"
 
 domains="${13}"
