@@ -5,8 +5,8 @@ The shell script can be called remotely via CLI with the following syntax. Just 
 ### Syntax
 
 ```
-wget -O - https://raw.githubusercontent.com/getlynx/DomainNameRegistrant-BulkUpdater/main/registrant.sh \
-| bash -s "first_name" "last_name" "organization" "address" "address2" "city" "state" "zip" "country" \
+wget -O - https://raw.githubusercontent.com/getlynx/DomainNameRegistrant-BulkUpdater/main/registrant.sh | \
+bash -s "first_name" "last_name" "organization" "address" "address2" "city" "state" "zip" "country" \
 "X-Auth-Key" "X-Auth-Email" "Cloudflare Id" \
 "domain name csv list"
 ```
@@ -14,8 +14,8 @@ wget -O - https://raw.githubusercontent.com/getlynx/DomainNameRegistrant-BulkUpd
 ### Sample
 
 ```
-wget -O - https://raw.githubusercontent.com/getlynx/DomainNameRegistrant-BulkUpdater/main/registrant.sh \
-| bash -s "John" "Doe" "NewCo, LLC" "123 Elm Street" "" "Ilion" "NY" "13357" "US" \
+wget -O - https://raw.githubusercontent.com/getlynx/DomainNameRegistrant-BulkUpdater/main/registrant.sh | \
+bash -s "John" "Doe" "NewCo, LLC" "123 Elm Street" "" "Ilion" "NY" "13357" "US" \
 "87287697ab93ac22f6e2f32b16abcd123450b" "john@newco.com" "987a66ee23456f15fbf6607ebe65432c" \
 "newco.com,newco.net,newco.org,newco.co,newco.io,newco.biz"
 ```
