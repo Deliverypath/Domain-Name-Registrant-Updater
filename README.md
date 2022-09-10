@@ -34,4 +34,6 @@ If the change request matches the information on file with Cloudflare, no change
 
 Details about the Cloudflare API can be found [here](https://api.cloudflare.com/#registrar-domains-update-domain).
 
+Install *wget* on MacOS with [Brew](https://www.fossmint.com/install-and-use-wget-on-mac/).
+
 This script does not include the following fields; phone, email, fax.
