@@ -15,7 +15,7 @@ data="{\"registrant\":{\"first_name\":\"$1\",\"last_name\":\"$2\",\"organization
 
 for val in ${domains//,/ }
 do
-     curl -X PUT "https://api.cloudflare.com/client/v4/accounts/${12}/registrar/domains/$val/contacts" -H "$h1" -H "$h2" -H "$h3" -d "$data"
+     curl -X PUT "https://api.cloudflare.com/client/v4/accounts/${12}/registrar/domains/$val/contacts" -H "$h1" -H "$h2" -H "$h3" -d "$data" > /dev/null 2>&1
 
      echo "Updated: $val"
 
